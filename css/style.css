@@ -1,0 +1,45 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.center-align{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 24px;
+}
+
+img{
+  margin: 0 auto;
+}
+
+body {
+  background-image: url(../shoreside1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: darkgreen;
+}
+
+h1 {
+  background: white;
+} 
+
+h3 {
+  background: white;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
